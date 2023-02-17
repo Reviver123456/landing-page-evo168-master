@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "sukhumvitSetMedium";   /*Can be any text*/
+  src: local("sukhumvitSet-Medium"),
+      url("../Fonts/sukhumvit/ttf/SukhumvitSet-Medium.ttf") format("truetype");
+}
+
+
+*{
+  font-family: sukhumvitSetMedium;
+}
+
+
+
+
+  /*ส่วนหัวโปรโมชั่น*/
+  .Foolter img.header--bg {
+    
+    position: fixed;   
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+
+
+  }
+
+
+  img.icon--nofi--Bg {
+    position: fixed;
+    width: 3%;
+    left: 95%;
+    top: 0;
+  }
+
+  img.Burger--Menu--Bg {
+    position: fixed;
+    width: 2%;
+    left: 92%;
+    top: 9px;
+}
+
+
+  /*ส่วนท้ายโปรโมชั่น*/
+  .Foolter img.Foolter--bg {
+    position: fixed; 
+    bottom: -2px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0px);
+
+  }
+
+  .Foolter--nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    bottom: 0px;
+    
+  }
+
+  .centerBG {
+    width: 34%;
+    position: fixed;
+    bottom: -6px;
+    left: 33%;
+}
+
+  img.Wallet--Bg {
+    width: 2%;
+    transform: translate(-25%, 0px);
+  }
+
+  img.Deposit--Bg {
+    width: 2%;
+    transform: translate(-13%, 0px);
+  }
+
+  img.Foolter--text-center{
+    width: 13%;
+    transform: translate( 2%, 0px);
+  }
+
+  img.Withdraw--Bg{
+    width: 2%;
+  }
+
+  img.Promo--Bg{
+    width: 2%;
+  }
+
+.pc{ display: block;}
+.mobile{ display: none;}
+
+  /*mobile*/
+
+  @media screen and (max-width: 400px){
+
+    .pc{ display: none;}
+    .mobile{ display: block;}
+
+    img.mb--header--bg {
+      position: fixed;
+      width: 100%;
+      top: 0%;
+      z-index: 1;
+    }
+    
+    img.mb--Foolter--bg {
+      position: fixed;
+      bottom: 0px;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, 0px);
+      Z-INDEX: 1;
+    }
+
+    img.mb--icon--nofi--Bg {
+      position: fixed;
+      width: 10%;
+      left: 15%;
+      top: 32px;
+      Z-INDEX: 1;
+    }
+
+
+    img.mb--Burger--Menu--Bg {
+      position: fixed;
+      width: 6%;
+      left: 5%;
+      top: 39px;
+      Z-INDEX: 1;
+   }
+
+   .mb--centerBG {
+    width: 175%;
+    position: fixed;
+    bottom: 18px;
+    left: 10%;
+    Z-INDEX: 1;
+  }
+
+
+  img.mb--Wallet--Bg {
+    width: 9%;
+    transform: translate(-49%, -12px);
+}
+
+  img.mb--Deposit--Bg {
+    width: 9%;
+    transform: translate(-46%, -8px);
+  }
+
+  img.mb--Foolter--text-center {
+    width: 16%;
+    transform: translate( -15%, 0px);
+  }
+
+  img.mb--Withdraw--Bg {
+    width: 10%;
+    transform: translate( -24%, -15px);
+  }
+
+  img.mb--Promo--Bg {
+    width: 9%;
+    transform: translate(-26%, -14px);
+  }
+  .text--noti {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 73px;
+  }
+  h2.textnoti {
+    position: absolute;
+    font-size: 1rem;
+    top: 27px;
+    text-align: center;
+    width: 100%;
+    color: #2b3c7a;
+  }
+
+}
+
+  
+

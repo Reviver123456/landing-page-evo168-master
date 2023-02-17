@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "sukhumvitSetMedium";   /*Can be any text*/
+  src: local("sukhumvitSet-Medium"),
+      url("../Fonts/sukhumvit/ttf/SukhumvitSet-Medium.ttf") format("truetype");
+}
+
+
+*{
+  font-family: sukhumvitSetMedium;
+}
+
+.home{ display: block;}
+.MB--home{ display: none;}
+
+.home--games--section {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 15%;
+  top: 17%;
+  width: 75%;
+}
+.home--games--section .left-bg {
+  width: 830px;
+}
+.home--games--section .right-bg {
+  width: 550px;
+}
+.home--games--section .right-bg{
+  margin-left: 20px;
+}
+.img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.text--game--category {
+  width: 400px;
+  transform: translate(25%, 0);
+}
+
+
+
+@media screen and (max-width: 1600px){
+
+
+  .home--games--section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 18%;
+    top: 168px;
+    width: 1130px;
+  }
+
+  .home--games--section .left-bg {
+    width: 700px;
+}
+  .home--games--section .right-bg {
+    width: 465px;
+  }
+  .home--games--section .right-bg{
+    margin-left: 20px;
+  }
+  .img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .text--game--category{
+    width: 350px;
+    transform: translate(15%, 0);
+  }
+  
+}
+
+@media screen and (max-width: 1366px){
+
+
+  .home--games--section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+    top: 160px;
+    width: 1300px;
+  }
+
+  .home--games--section .left-bg {
+    width: 550px;
+}
+  .home--games--section .right-bg {
+    width: 340px;
+  }
+  .home--games--section .right-bg{
+    margin-left: 55px;
+  }
+  .img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .text--game--category{
+    width: 280px;
+    transform: translate(10%, 0);
+  }
+  
+}
+
+
+@media screen and (max-width: 1280px){
+
+
+
+  .home--games--section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+    top: 160px;
+    width: 1300px;
+  }
+
+  .home--games--section .left-bg {
+    width: 530px;
+}
+  .home--games--section .right-bg {
+    width: 320px;
+  }
+  .home--games--section .right-bg{
+    margin-left: 55px;
+  }
+  .img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .text--game--category{
+    width: 260px;
+    transform: translate(10%, 0);
+  }
+}
+
+
+
+@media screen and (max-width: 960px){
+  .home--games--section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+    top: 160px;
+    width: 1300px;
+  }
+
+  .home--games--section .left-bg {
+    width: 530px;
+}
+  .home--games--section .right-bg {
+    width: 320px;
+  }
+  .home--games--section .right-bg{
+    margin-left: 55px;
+  }
+  .img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .text--game--category{
+    width: 260px;
+    transform: translate(10%, 0);
+  }
+  
+}
+
+/* mobie*/
+@media screen and (max-width: 400px){
+  .home{ display: none;}
+  .MB--home{ display: block;}
+  ul.splide__pagination.splide__pagination--ltr li button {
+    width: 20px;
+    background-color: #dd0370;
+    border-radius: 0;
+    margin: 0 8px;
+    border: 1px solid;
+  }
+  .splide__pagination {
+    bottom: -0.5em;
+  }
+  .home--games--section .right-bg {
+    width: 370px;
+    position: absolute;
+    top: 118%;
+    left: 55%;
+  }
+  .home--games--section .left-bg {
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 78px;
+
+}
+
+  img.MB--all--Games {
+  width: 50%;
+  }
+
+  img.MB--all--Casino {
+  width: 50%;
+  }
+
+
+  img.MB--allL--otto {
+    width: 50%;
+  }
+
+  img.MB--all--Sport {
+  width: 50%;
+  }
+
+  img.MB--all--Slot {
+  width: 50%;
+  
+  }
+  img.MB--text--game--category {
+    width: 66%;
+    margin: -17px 40px 12px 57px;
+}
+
+  .right-bg-game {
+    position: absolute;
+    width: 85%;
+    left: 58%;
+    top: 310px;
+    padding-bottom: 120px;
+}
+
+img.MB--all--Games {
+  width: 100%;
+}
+
+.login-register {
+  width: 31%;
+  position: absolute;
+  right: -8%;
+  top: 0px;
+}
+
+img.MB--text--barh {
+  width: 22%;
+  position: absolute;
+  right: 2%;
+  top: 3px;
+}
+img.MB--text--bar {
+  position: absolute;
+  width: 21%;
+  top: -88px;
+  margin: 26px -30px 51px 949px;
+}
+
+th {
+  font-size: 4px;
+  color: #ffff;
+  margin: 12px 43px 7px 0px;
+  position: fixed;
+  z-index: 1;
+}
+img.MB--text--barH {
+  width: 300px;
+  margin: 1px 0px 0px -19px;
+  position: fixed;
+}
+
+.text--game {
+  position: relative;
+  width: 114%;
+  top: -53px;
+  right: -78%;
+}
+.abc {
+  width: 100%;
+  position: absolute;
+}
+
+
+}
+
+
+
+
+

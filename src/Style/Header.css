@@ -1,0 +1,207 @@
+
+/*พื้นหลัง*/
+.wrapper.wrapper--bg{
+    background: url("/src/Images/background/bg-new.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
+
+    position: fixed;
+    width: 100%;
+    overflow-y: auto;
+  } 
+  
+  @font-face {
+    font-family: "sukhumvitSetMedium";   /*Can be any text*/
+    src: local("sukhumvitSet-Medium"),
+        url("../Fonts/sukhumvit/ttf/SukhumvitSet-Medium.ttf") format("truetype");
+  }
+  
+  
+  *{
+    font-family: sukhumvitSetMedium;
+  }
+  
+  /*ส่วนหัวตรงกลาง*/
+  img.header--bg {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+  }
+  
+  .center {
+    width: 38%;
+    position: fixed;
+    top: 0px;
+    left: 40%;
+  }
+  
+  img.Wallet--Bg {
+    width: 10%;
+    transform: translate(-45%, 0px);
+  }
+  
+  img.Deposit--Bg {
+    width: 10%;
+    transform: translate(-30%, 0px);
+  }
+  
+  img.header--text-center {
+    width: 13%;
+    transform: translate( 1%, 0px);
+}
+  
+  img.Withdraw--Bg{
+    width: 10%;
+    transform: translate( 30%, -2px);
+  }
+  
+  img.Promo--Bg{
+    width: 10%;
+    transform: translate(35%, 0px);
+  }
+  
+  
+  /*ส่วนหัวขวา*/
+  .right {
+    width: 70%;
+    position: fixed;
+    top: 10px;
+    left: 80%;
+  }
+  
+  img.icon--Regiter {
+    width: 10%;
+    transform: translate(8%, 0px);
+  }
+  
+  img.icon--Login {
+    width: 10%;
+    transform: translate(8%, 0px);
+  }
+  
+  
+  /*ส่วนซ้าย*/
+  .left {
+    width: 80%;
+    position: fixed;
+    top: 3px;
+    left: 11%;
+  }
+  
+  img.icon--burger--menu {
+    width: 3%;
+    transform: translate(-181%, 0px);
+  }
+
+  img.icon--nofi {
+    width: 4%;
+    transform: translate(-77%, 0px);
+  }
+  
+  img.icon--line {
+    width: 3%;
+    transform: translate(-47%, 0px);
+    
+  }
+
+  img.icon--evo {
+    width: 10%;
+    transform: translate(22%, 0px);
+  }
+  
+@media screen and (max-width: 414px){
+  .wrapper.wrapper--bg {
+    background: url("/src/Images/background/BG-Mo.png") no-repeat;
+    background-size: cover;
+    height: 100%;
+    max-width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+  }
+
+  .menu--hamburger {
+    width: 70%;
+    margin: 127px auto;
+}
+
+}
+
+.fade.modal-backdrop.show {
+  margin-top: 74px;
+}
+.text--noti {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 73px;
+}
+.wrapper--menu--hamburger {
+  width: 260px;
+  margin: 14px auto;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: 0;
+}
+  
+
+.box--nofi.container {
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+}
+img.bg--tab--blue--nofi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+.menu--nofi ul.nav.nav-tabs {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 7px;
+}
+.menu--nofi .tab-content {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  color: #fff;
+}
+  
+h2.textnoti {
+  position: absolute;
+  font-size: 1rem;
+  top: 27px;
+  text-align: center;
+  width: 100%;
+  color: #2b3c7a;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

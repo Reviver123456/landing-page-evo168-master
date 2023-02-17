@@ -1,0 +1,82 @@
+  .wrapper.wrapper--bg{
+    background: url("/src/Images/background/bg.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
+  
+  }
+  /*ส่วนหัวโปรโมชั่น*/
+  .Foolter img.header--bg {
+    
+    position: fixed;   
+    width: 100%;
+    top: 0%;
+  }
+
+  .icon--bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: -94%;
+  }
+
+  img.icon--nofi {
+    width: 3%;
+  }
+
+  img.icon--burger--menu {
+
+    width: 2%;
+    transform: translate(-51%, 0px)
+
+  }
+
+
+  /*ส่วนท้ายโปรโมชั่น*/
+  .Foolter img.Foolter--bg {
+    position: fixed; 
+    bottom: -2px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0px);
+
+  }
+
+  .Foolter--nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    bottom: 0px;
+    
+  }
+
+  img.Wallet--Bg {
+    width: 3%;
+    transform: translate(-25%, 0px);
+  }
+
+  img.Deposit--Bg {
+    width: 3%;
+    transform: translate(-13%, 0px);
+  }
+
+  img.Foolter--text-center{
+    width: 5%;
+    transform: translate( 2%, 0px);
+  }
+
+  img.Withdraw--Bg{
+    width: 3%;
+    transform: translate( 21%, -2px);
+  }
+
+  img.Promo--Bg{
+    width: 3%;
+    transform: translate(20%, 0px);
+  }
+
+
+  
+
